@@ -18,6 +18,13 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 html {
     font-size: 62.5%;
     font-family: $montserrat;
+    color: $mainBlack;
+    background-color: $white;
+}
+
+img {
+  display: block;
+  width: 100%;
 }
 
 .wrapper {

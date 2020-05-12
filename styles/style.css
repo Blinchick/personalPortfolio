@@ -238,10 +238,102 @@ html {
 html {
   font-size: 62.5%;
   font-family: "Montserrat", sans-serif;
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+img {
+  display: block;
+  width: 100%;
 }
 
 .wrapper {
   margin: 0 auto;
   max-width: 1160px;
   width: 90%;
+}
+
+h2 {
+  font-size: 16px;
+  color: #FF4D4D;
+  margin: 0;
+}
+
+h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+p {
+  font-size: 14px;
+  color: #666666;
+}
+
+strong {
+  color: #333333;
+}
+
+section {
+  margin: 4rem 0;
+}
+
+.headerDiv {
+  position: relative;
+  z-index: 1;
+}
+
+.headerDiv h2 {
+  display: inline;
+  padding: 1rem 3rem;
+  border: 2px solid #DDDDDD;
+  background-color: #FFFFFF;
+}
+
+.headerDiv h2:before {
+  border-top: 2px solid #DDDDDD;
+  content: "";
+  margin: 0 auto;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.aboutMeMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5rem 0;
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+}
+
+.aboutMeMainProfile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
+}
+
+.aboutMeImg {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+}
+
+.aboutMeMainProfile div:first-of-type {
+  text-align: right;
+  padding-right: 4rem;
 }

@@ -1,0 +1,44 @@
+h2 {
+    font-size: 16px;
+    color: $red;
+    margin: 0;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
+    color: $grey;
+}
+
+strong {
+    color: $mainBlack;
+}
+
+section {
+    margin: 4rem 0;
+}
+
+.headerDiv {
+    position: relative;
+    z-index: 1;
+}
+
+.headerDiv h2 {
+    display: inline;
+    padding: 1rem 3rem;
+    border: 2px solid $lightGrey;
+    background-color: $white;
+}
+
+.headerDiv h2:before {
+    border-top: 2px solid $lightGrey;
+        content:"";
+        margin: 0 auto;
+        top: 50%; left: 0; right: 0; bottom: 0;
+        position: absolute;
+        z-index: -1;
+}

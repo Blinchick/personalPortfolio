@@ -1,0 +1,22 @@
+.aboutMeMain {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0;
+    flex: 100%;
+}
+
+.aboutMeMainProfile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 70%;
+}
+
+.aboutMeImg {
+    flex-basis: 25%;
+}
+
+.aboutMeMainProfile div:first-of-type {
+    text-align: right;
+    padding-right: 4rem;
+}
