@@ -226,7 +226,7 @@ html {
   overflow: hidden;
 }
 
-.visually-hidden {
+.visuallyHidden {
   position: absolute !important;
   height: 1px;
   width: 1px;
@@ -269,6 +269,16 @@ p {
   color: #666666;
 }
 
+a {
+  text-decoration: none;
+  color: #666666;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 strong {
   color: #333333;
 }
@@ -277,19 +287,19 @@ section {
   margin: 4rem 0;
 }
 
-.headerDiv {
+.headingDiv {
   position: relative;
   z-index: 1;
 }
 
-.headerDiv h2 {
+.headingDiv h2 {
   display: inline;
   padding: 1rem 3rem;
   border: 2px solid #DDDDDD;
   background-color: #FFFFFF;
 }
 
-.headerDiv h2:before {
+.headingDiv h2:before {
   border-top: 2px solid #DDDDDD;
   content: "";
   margin: 0 auto;
@@ -336,4 +346,66 @@ section {
 .aboutMeMainProfile div:first-of-type {
   text-align: right;
   padding-right: 4rem;
+}
+
+.projects {
+  padding: 5rem 0;
+}
+
+.project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.project > div {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
+  margin: 2rem 0;
+}
+
+.project img {
+  height: 300px;
+  width: auto;
+}
+
+.tools {
+  margin-top: 0;
+  color: #FF4D4D;
+}
+
+.projectLinks ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.projectLinks li {
+  padding: 1rem 2rem;
+  border: 1px solid #DDDDDD;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+.contactMeForm {
+  padding: 5rem 0;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }

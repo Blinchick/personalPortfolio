@@ -1,3 +1,5 @@
+//about me
+
 .aboutMeMain {
     display: flex;
     justify-content: space-between;
@@ -19,4 +21,52 @@
 .aboutMeMainProfile div:first-of-type {
     text-align: right;
     padding-right: 4rem;
+}
+
+//my work
+.projects {
+    padding: 5rem 0;
+}
+
+.project {
+    display: flex;
+    flex: 100%;
+    justify-content: space-between;
+}
+
+.project > div {
+    align-self: center;
+    flex-basis: 45%;
+    margin: 2rem 0;
+}
+
+.project img {
+    height: 300px;
+    width: auto;
+}
+
+.tools {
+    margin-top: 0;
+    color: $red;
+}
+
+.projectLinks ul{
+    display: flex;
+}
+
+.projectLinks li {
+    padding: 1rem 2rem;
+    border: 1px solid $lightGrey;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+//contact
+.contactMeForm {
+    padding: 5rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
 }
