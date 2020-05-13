@@ -1,0 +1,38 @@
+footer {
+    background-color: $alsoBlack;
+}
+
+footer > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0;
+}
+
+.copyRights {
+    padding: 1rem;
+    margin: 0;
+        p {
+            color: $white;
+        }
+            a:hover {
+                color: $white;
+            }
+}
+
+.socialLinks ul {
+    display: flex;
+}
+
+.socialLinks li {
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+.socialLinks li:hover {
+    border: 6px dashed $red;
+    color: $red;
+}
+
+.socialLinks i {
+    font-size: 20px;
+}

@@ -12,6 +12,9 @@
     justify-content: space-between;
     align-items: center;
     flex-basis: 70%;
+    div {
+        width: 60%;
+    }
 }
 
 .aboutMeImg {
@@ -20,7 +23,7 @@
 
 .aboutMeMainProfile div:first-of-type {
     text-align: right;
-    padding-right: 4rem;
+    padding-right: 2rem;
 }
 
 //my work
@@ -112,6 +115,7 @@ button {
     background-color: $dirtyWhite;
     padding: 10rem 0;
     position: center;
+    margin-bottom: 0;
 }
 
 .instantContact ul {

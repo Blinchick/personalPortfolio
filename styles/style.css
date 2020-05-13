@@ -338,6 +338,10 @@ section {
       flex-basis: 70%;
 }
 
+.aboutMeMainProfile div {
+  width: 60%;
+}
+
 .aboutMeImg {
   -ms-flex-preferred-size: 25%;
       flex-basis: 25%;
@@ -345,7 +349,7 @@ section {
 
 .aboutMeMainProfile div:first-of-type {
   text-align: right;
-  padding-right: 4rem;
+  padding-right: 2rem;
 }
 
 .projects {
@@ -453,6 +457,7 @@ button {
   background-color: #FAFAFA;
   padding: 10rem 0;
   position: center;
+  margin-bottom: 0;
 }
 
 .instantContact ul {
@@ -489,4 +494,51 @@ button {
 
 .fa-envelope {
   padding-right: 2rem;
+}
+
+footer {
+  background-color: #222222;
+}
+
+footer > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 4rem 0;
+}
+
+.copyRights {
+  padding: 1rem;
+  margin: 0;
+}
+
+.copyRights p {
+  color: #FFFFFF;
+}
+
+.copyRights a:hover {
+  color: #FFFFFF;
+}
+
+.socialLinks ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.socialLinks li {
+  padding: 1rem;
+  margin-left: 2rem;
+}
+
+.socialLinks li:hover {
+  border: 6px dashed #FF4D4D;
+  color: #FF4D4D;
+}
+
+.socialLinks i {
+  font-size: 20px;
 }
