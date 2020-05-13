@@ -1,0 +1,64 @@
+header {
+  height: 80vh;
+  background-color: $dirtyWhite;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo h2 {
+  font-family: $abril;
+  font-size: 40px;
+  color: $alsoBlack;
+}
+
+.menu {
+  padding: 3rem 5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu li {
+  border: 2px $dirtyWhite solid;
+  padding: 1rem 2rem;
+  margin: 0 1rem;
+}
+
+.menu li:hover {
+  border-color: $red;
+}
+
+.menu a {
+  color: $alsoBlack;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.mainHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+  position: relative;
+}
+
+h1 {
+  font-family: $abril;
+  color: $red;
+  font-size: 70px;
+  margin-top: 0;
+}
+
+.lastName::first-letter,
+.firstName {
+  font-size: 150px;
+  color: $lightGrey;
+}
+
+.lastName {
+  position: absolute;
+  transform: translateX(100px);
+}
