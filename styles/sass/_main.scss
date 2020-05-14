@@ -5,31 +5,28 @@ main {
 
 .aboutMeMain {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 5rem 0;
     flex: 100%;
 }
 
 .aboutMeMainProfile {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-basis: 70%;
-    div {
-        width: 60%;
-    }
+    align-self: center;
+    flex-basis: 50%;
+    text-align: right;
 }
 
 .aboutMeImg {
-    flex-basis: 25%;
-}
-
-.aboutMeMainProfile div:first-of-type {
-    text-align: right;
-    padding-right: 2rem;
+    flex-basis: 30%;
+    box-shadow: 23px 25px 38px 0px rgba(181,187,219,1);
 }
 
 //my work
+.myWork .headingDiv {
+    display: flex;
+    justify-content: center;
+}
+
 .projects {
     padding: 5rem 0;
 }
@@ -38,11 +35,12 @@ main {
     display: flex;
     flex: 100%;
     justify-content: space-between;
+    position: relative;
 }
 
 .project > div {
     align-self: center;
-    flex-basis: 45%;
+    flex-basis: 47%;
     margin: 2rem 0;
 }
 
@@ -60,6 +58,16 @@ main {
     display: flex;
 }
 
+//for pretty little lines behind projects
+.decorLine {
+    width: 300px;
+    border: 1px solid $lightGrey;
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: -25%;
+}
+
 .projectLinks li {
     padding: 1rem 2rem;
     border: 1px solid $lightGrey;
@@ -68,7 +76,16 @@ main {
     font-size: 14px;
 }
 
+.decorLine {
+    position: absolute;
+}
+
 //contact
+.contactMe .headingDiv {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 .contactMeForm {
     padding: 5rem 0;
     text-align: center;
