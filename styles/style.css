@@ -529,7 +529,6 @@ main {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  position: relative;
 }
 
 .project > div {
@@ -541,9 +540,8 @@ main {
   margin: 2rem 0;
 }
 
-.project img {
-  height: 300px;
-  width: auto;
+.decorLine.right {
+  left: 63%;
 }
 
 .tools {
@@ -557,25 +555,38 @@ main {
   display: flex;
 }
 
-.decorLine {
-  width: 300px;
-  border: 1px solid #DDDDDD;
-  z-index: -1;
-  position: absolute;
-  top: 50%;
-  left: -25%;
+.projectSymbol {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 4px solid #DDDDDD;
+  background-color: #FFFFFF;
+}
+
+.projectSymbol i {
+  font-size: 200px;
+  color: #DDDDDD;
 }
 
 .projectLinks li {
   padding: 1rem 2rem;
-  border: 1px solid #DDDDDD;
+  border: 2px solid #DDDDDD;
   margin-right: 1rem;
   font-weight: bold;
   font-size: 14px;
+  -webkit-transition: 1s border-color ease-out;
+  transition: 1s border-color ease-out;
 }
 
-.decorLine {
-  position: absolute;
+.projectLinks li:hover {
+  border-color: #FF4D4D;
 }
 
 .contactMe .headingDiv {
