@@ -349,10 +349,12 @@ header {
   border: 2px #FAFAFA solid;
   padding: 1rem 2rem;
   margin: 0 1rem;
+  -webkit-transition: 1s border-bottom-color ease-out;
+  transition: 1s border-bottom-color ease-out;
 }
 
 .menu li:hover {
-  border-color: #FF4D4D;
+  border-bottom-color: #FF4D4D;
 }
 
 .menu a {
@@ -393,6 +395,85 @@ h1 {
   position: absolute;
   -webkit-transform: translateX(100px);
           transform: translateX(100px);
+}
+
+.mobileMenu {
+  position: relative;
+  cursor: pointer;
+  display: none;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.line {
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background: #222222;
+  border-radius: 8px;
+  -webkit-transition: all cubic-bezier(0.26, 0.1, 0.27, 1.55) 0.35s;
+  transition: all cubic-bezier(0.26, 0.1, 0.27, 1.55) 0.35s;
+}
+
+.top {
+  top: 18%;
+}
+
+.middle {
+  top: 48%;
+}
+
+.bottom {
+  top: 78%;
+}
+
+.icon.close .top {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 48%;
+}
+
+.icon.close .middle, .icon.close .bottom {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  top: 48%;
+}
+
+.icon.close {
+  z-index: 2;
+}
+
+.menu nav.open {
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: block;
+  z-index: 1;
+  background-color: rgba(250, 250, 250, 0.7);
+  width: 100%;
+  height: 100%;
+  margin-top: 10rem;
+}
+
+.menu nav.open li {
+  border: rgba(250, 250, 250, 0.7);
+}
+
+.open ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 main {
@@ -640,4 +721,13 @@ footer > div {
 .socialLinks i {
   font-size: 20px;
   color: #FFFFFF;
+}
+
+@media (max-width: 1000px) {
+  .mobileMenu {
+    display: inline;
+  }
+  .menu nav {
+    display: none;
+  }
 }

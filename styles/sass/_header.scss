@@ -25,10 +25,11 @@ header {
   border: 2px $dirtyWhite solid;
   padding: 1rem 2rem;
   margin: 0 1rem;
+  transition: 1s border-bottom-color ease-out;
 }
 
 .menu li:hover {
-  border-color: $red;
+  border-bottom-color: $red;
 }
 
 .menu a {
