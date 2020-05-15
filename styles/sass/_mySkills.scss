@@ -1,0 +1,16 @@
+.skillTags > div {
+    padding: 5rem 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.skillTags i {
+    font-size: 100px;
+    color: $grey;
+}
+
+.skillTags p {
+    color: $mainBlack;
+    font-weight: bolder;
+}

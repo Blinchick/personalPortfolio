@@ -641,6 +641,26 @@ main {
   color: #333333;
 }
 
+.skillTags > div {
+  padding: 5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+
+.skillTags i {
+  font-size: 100px;
+  color: #666666;
+}
+
+.skillTags p {
+  color: #333333;
+  font-weight: bolder;
+}
+
 .contactMeForm {
   padding: 5rem 0;
   text-align: center;
