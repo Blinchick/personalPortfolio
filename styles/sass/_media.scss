@@ -9,6 +9,18 @@
 }
 
 @media (max-width: 770px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
     .lastName, .firstName {
         font-size: 90px;
     }
@@ -17,26 +29,62 @@
         margin-left: 50px;
     }
 
-    h1 {
-        font-size: 40px;
+    .aboutMeMain {
+        flex-direction: column-reverse;
     }
 
-    h3 {
-        font-size: 22px;
+    .aboutMeImg img {
+        max-width: 300px;
+    }
+
+    .aboutMeMainProfile {
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    .project,
+    .project.reverse {
+        flex-direction: column;
+    }
+
+    .projectSymbol {
+        width: 100%
+    }
+
+    .projectSymbol i {
+        padding: 1rem;
+    }
+
+    input,
+    textarea {
+        width: 300px
+    }
+
+    footer > div {
+        flex-direction: column-reverse;
+        align-items: center;
     }
 }
 
 @media (max-width: 430px) {
-    .lastName, .firstName {
-        font-size: 39px;
-    }
         h1 {
         font-size: 35px;
     }
-    .lastName {
-        margin-left: 15px;
-    }
+
         h3 {
         font-size: 18px;
     }
+
+        .lastName, .firstName {
+        font-size: 39px;
+    }
+    
+        .lastName {
+        margin-left: 15px;
+    }
+
+    // input,
+    // textarea {
+    //     width: 400px
+    // }
 }

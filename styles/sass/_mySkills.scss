@@ -1,8 +1,13 @@
-.skillTags > div {
+.skillTags {
     padding: 5rem 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
+}
+
+.skillTags > div {
+    flex: 1 1 100px;
 }
 
 .skillTags i {
