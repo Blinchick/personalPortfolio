@@ -593,16 +593,20 @@ main {
 
 .projectLinks li {
   padding: 1rem 2rem;
-  border: 2px solid #DDDDDD;
+  border: 3px solid #DDDDDD;
   margin-right: 1rem;
   font-weight: bold;
   font-size: 14px;
-  -webkit-transition: 1s border-color ease-out;
-  transition: 1s border-color ease-out;
+  -webkit-transition: .3s border-color ease-out;
+  transition: .3s border-color ease-out;
+  -webkit-transition: .3s box-shadow ease-out;
+  transition: .3s box-shadow ease-out;
 }
 
 .projectLinks li:hover {
   border-color: #8E404D;
+  -webkit-box-shadow: 5px 5px #DDDDDD;
+          box-shadow: 5px 5px #DDDDDD;
 }
 
 .projectSymbol {
@@ -613,8 +617,8 @@ main {
   background-color: #7A7A6B;
 }
 
-.projectSymbol .fa-book-open {
-  color: #eeeeb6;
+.projectSymbol .fa-book {
+  color: #bdbd8e;
 }
 
 .projectSymbol.cloud {
@@ -627,6 +631,7 @@ main {
 
 .projectSymbol.globe {
   background-color: #333333;
+  opacity: .9;
 }
 
 .projectSymbol .fa-globe-europe {
@@ -674,6 +679,7 @@ form {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 2rem;
 }
 
 input,
@@ -718,12 +724,16 @@ button {
   font-weight: bold;
   font-size: 14px;
   cursor: pointer;
-  -webkit-transition: 1s border-color ease-out;
-  transition: 1s border-color ease-out;
+  -webkit-transition: .3s border-color ease-out;
+  transition: .3s border-color ease-out;
+  -webkit-transition: .3s box-shadow ease-out;
+  transition: .3s box-shadow ease-out;
 }
 
 button:hover {
   border-color: #8E404D;
+  -webkit-box-shadow: 5px 5px #DDDDDD;
+          box-shadow: 5px 5px #DDDDDD;
 }
 
 footer {
@@ -745,10 +755,14 @@ footer > div {
   margin: 0;
 }
 
-.copyRights p {
+.copyRights a, .copyRights p {
   color: #DDDDDD;
   -webkit-transition: 1s color ease-out;
   transition: 1s color ease-out;
+}
+
+.copyRights a:hover {
+  color: #8E404D;
 }
 
 .socialLinks ul {
@@ -763,7 +777,7 @@ footer > div {
 }
 
 .socialLinks i {
-  font-size: 20px;
+  font-size: 25px;
   color: #DDDDDD;
   -webkit-transition: 1s color ease-out;
   transition: 1s color ease-out;

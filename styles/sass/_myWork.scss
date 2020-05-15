@@ -47,15 +47,18 @@
 
 .projectLinks li {
     padding: 1rem 2rem;
-    border: 2px solid $lightGrey;
+    border: 3px solid $lightGrey;
     margin-right: 1rem;
     font-weight: bold;
     font-size: 14px;
-    transition: 1s border-color ease-out;
+    transition: .3s border-color ease-out;
+    transition: .3s box-shadow ease-out;
+
 }
 
-.projectLinks li:hover {
+.projectLinks li:hover{
     border-color: $red;
+    box-shadow: 5px 5px $lightGrey;
 }
 
 //project styles
@@ -67,8 +70,8 @@
     background-color: #7A7A6B;
 }
 
-.projectSymbol .fa-book-open {
-    color: rgb(238, 238, 182); 
+.projectSymbol .fa-book {
+    color: rgb(189, 189, 142); 
 }
 
 .projectSymbol.cloud {
@@ -81,6 +84,7 @@
 
 .projectSymbol.globe {
     background-color: $mainBlack;
+    opacity: .9;
 }
 
 .projectSymbol .fa-globe-europe {

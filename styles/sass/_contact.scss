@@ -7,6 +7,7 @@
 form {
     display: flex;
     flex-direction: column;
+    margin-top: 2rem;
 }
 
 input, 
@@ -46,9 +47,11 @@ button {
     font-weight: bold;
     font-size: 14px;
     cursor: pointer;
-    transition: 1s border-color ease-out;
+    transition: .3s border-color ease-out;
+    transition: .3s box-shadow ease-out;
 }
 
 button:hover {
     border-color: $red;
+    box-shadow: 5px 5px $lightGrey;
 }
