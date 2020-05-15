@@ -1,7 +1,7 @@
 // Can also be included with a regular script tag
 
 let options = {
-    strings: ['pirdo', 'pridonk', 'piridonenkova'],
+    strings: ['prirdo', 'pirdonk', 'piridonenkova'],
     typeSpeed: 80,
     backSpeed: 80,
     smartBackspace: true, // this is a default

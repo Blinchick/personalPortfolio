@@ -1,16 +1,16 @@
 h2 {
-    font-size: 16px;
+    font-size: 20px;
     color: $red;
     margin: 0;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 28px;
     margin: 0;
 }
 
 p {
-    font-size: 14px;
+    font-size: 20px;
     color: $grey;
 }
 
@@ -46,9 +46,9 @@ section {
 
 .headingDiv h2:before{
     border-top: 2px solid $lightGrey;
-        content:"";
-        margin: 0 auto;
-        top: 50%; left: 0; right: 0; bottom: 0;
-        position: absolute;
-        z-index: -1;
+    content:"";
+    margin: 0 auto;
+    top: 50%; left: 0; right: 0; bottom: 0;
+    position: absolute;
+    z-index: -1;
 }

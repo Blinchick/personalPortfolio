@@ -254,18 +254,18 @@ img {
 }
 
 h2 {
-  font-size: 16px;
-  color: #FF4D4D;
+  font-size: 20px;
+  color: #8E404D;
   margin: 0;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 28px;
   margin: 0;
 }
 
 p {
-  font-size: 14px;
+  font-size: 20px;
   color: #666666;
 }
 
@@ -354,12 +354,12 @@ header {
 }
 
 .menu li:hover {
-  border-bottom-color: #FF4D4D;
+  border-bottom-color: #8E404D;
 }
 
 .menu a {
   color: #222222;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -379,7 +379,7 @@ header {
 
 h1 {
   font-family: "Abril Fatface", cursive;
-  color: #FF4D4D;
+  color: #8E404D;
   font-size: 70px;
   margin-top: 0;
   line-height: 45px;
@@ -388,7 +388,6 @@ h1 {
 .lastName,
 .firstName {
   font-size: 150px;
-  color: #DDDDDD;
 }
 
 .lastName {
@@ -531,6 +530,13 @@ main {
           justify-content: space-between;
 }
 
+.project.reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
 .project > div {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -546,7 +552,7 @@ main {
 
 .tools {
   margin-top: 0;
-  color: #FF4D4D;
+  color: #8E404D;
 }
 
 .projectLinks ul {
@@ -566,8 +572,7 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 4px solid #DDDDDD;
-  background-color: #FFFFFF;
+  border: 5px solid #DDDDDD;
 }
 
 .projectSymbol i {
@@ -586,7 +591,43 @@ main {
 }
 
 .projectLinks li:hover {
-  border-color: #FF4D4D;
+  border-color: #8E404D;
+}
+
+.projectSymbol {
+  opacity: 0.3;
+}
+
+.projectSymbol.book {
+  background-color: #7A7A6B;
+}
+
+.projectSymbol .fa-book-open {
+  color: #AC9B8F;
+}
+
+.projectSymbol.cloud {
+  background-color: #61C1EB;
+}
+
+.projectSymbol .fa-cloud {
+  color: #FFFFFF;
+}
+
+.projectSymbol.globe {
+  background-color: #222222;
+}
+
+.projectSymbol .fa-globe-europe {
+  color: #666666;
+}
+
+.projectSymbol.utensils {
+  background-color: #65A605;
+}
+
+.projectSymbol .fa-utensils {
+  color: #333333;
 }
 
 .contactMe .headingDiv {
@@ -622,7 +663,7 @@ textarea {
       align-self: center;
   margin: 1rem 0;
   border: 1px solid #DDDDDD;
-  color: #FF4D4D;
+  color: #8E404D;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   padding: 1rem;
@@ -630,7 +671,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-  border-color: #FF4D4D;
+  border-color: #8E404D;
 }
 
 input {
@@ -657,8 +698,8 @@ button {
 }
 
 button:hover {
-  border-color: #FF4D4D;
-  color: #FF4D4D;
+  border-color: #8E404D;
+  color: #8E404D;
 }
 
 .instantContact {
@@ -683,7 +724,7 @@ button:hover {
 }
 
 .instantContact i {
-  color: #FF4D4D;
+  color: #8E404D;
   font-size: 50px;
 }
 
@@ -693,7 +734,7 @@ button:hover {
 }
 
 .instantContact a:hover {
-  color: #FF4D4D;
+  color: #8E404D;
 }
 
 .fa-phone-alt {
@@ -743,8 +784,8 @@ footer > div {
 }
 
 .socialLinks li:hover {
-  border: 6px dashed #FF4D4D;
-  color: #FF4D4D;
+  border: 6px dashed #8E404D;
+  color: #8E404D;
 }
 
 .socialLinks i {
