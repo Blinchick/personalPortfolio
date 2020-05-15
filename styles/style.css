@@ -311,6 +311,26 @@ section {
   z-index: -1;
 }
 
+.contactMe .headingDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.myWork .headingDiv,
+.mySkills .headingDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 header {
   height: 80vh;
   background-color: #FAFAFA;
@@ -505,15 +525,6 @@ main {
           box-shadow: 23px 25px 38px 0px #b5bbdb;
 }
 
-.myWork .headingDiv {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 .projects {
   padding: 5rem 0;
 }
@@ -630,16 +641,6 @@ main {
   color: #333333;
 }
 
-.contactMe .headingDiv {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-}
-
 .contactMeForm {
   padding: 5rem 0;
   text-align: center;
@@ -662,11 +663,13 @@ textarea {
       -ms-grid-row-align: center;
       align-self: center;
   margin: 1rem 0;
-  border: 1px solid #DDDDDD;
+  border: 2px solid #DDDDDD;
   color: #8E404D;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   padding: 1rem;
+  -webkit-transition: 1s border-color ease-out;
+  transition: 1s border-color ease-out;
 }
 
 input:focus,
@@ -688,18 +691,19 @@ button {
       align-self: center;
   width: 150px;
   padding: 1rem 0;
-  border: 1px solid #DDDDDD;
+  border: 2px solid #DDDDDD;
   background-color: #FFFFFF;
   font-family: "Montserrat", sans-serif;
   color: #666666;
   font-weight: bold;
   font-size: 14px;
   cursor: pointer;
+  -webkit-transition: 1s border-color ease-out;
+  transition: 1s border-color ease-out;
 }
 
 button:hover {
   border-color: #8E404D;
-  color: #8E404D;
 }
 
 .instantContact {
@@ -731,6 +735,8 @@ button:hover {
 .instantContact a {
   font-size: 24px;
   font-weight: bold;
+  -webkit-transition: 1s color ease-out;
+  transition: 1s color ease-out;
 }
 
 .instantContact a:hover {
@@ -764,12 +770,14 @@ footer > div {
   margin: 0;
 }
 
-.copyRights p {
-  color: #FFFFFF;
+.copyRights p, .copyRights a {
+  color: #DDDDDD;
+  -webkit-transition: 1s color ease-out;
+  transition: 1s color ease-out;
 }
 
 .copyRights a:hover {
-  color: #FFFFFF;
+  color: #8E404D;
 }
 
 .socialLinks ul {
@@ -783,14 +791,15 @@ footer > div {
   margin-left: 2rem;
 }
 
-.socialLinks li:hover {
-  border: 6px dashed #8E404D;
-  color: #8E404D;
-}
-
 .socialLinks i {
   font-size: 20px;
-  color: #FFFFFF;
+  color: #DDDDDD;
+  -webkit-transition: 1s color ease-out;
+  transition: 1s color ease-out;
+}
+
+.socialLinks i:hover {
+  color: #8E404D;
 }
 
 @media (max-width: 1000px) {

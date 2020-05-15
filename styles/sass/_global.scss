@@ -52,3 +52,14 @@ section {
     position: absolute;
     z-index: -1;
 }
+
+.contactMe .headingDiv {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.myWork .headingDiv,
+.mySkills .headingDiv {
+    display: flex;
+    justify-content: center;
+}

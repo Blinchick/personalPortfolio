@@ -1,0 +1,96 @@
+//my work
+.projects {
+    padding: 5rem 0;
+}
+
+.project {
+    display: flex;
+    flex: 100%;
+    justify-content: space-between;
+}
+
+.project.reverse {
+    flex-direction: row-reverse;
+}
+
+.project > div {
+    align-self: center;
+    flex-basis: 47%;
+    margin: 2rem 0;
+}
+
+.decorLine.right {
+    left: 63%;
+}
+
+.tools {
+    margin-top: 0;
+    color: $red;
+}
+
+.projectLinks ul{
+    display: flex;
+}
+
+.projectSymbol {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid $lightGrey;
+}
+
+.projectSymbol i {
+    font-size: 200px;
+    color: $lightGrey;
+}
+
+.projectLinks li {
+    padding: 1rem 2rem;
+    border: 2px solid $lightGrey;
+    margin-right: 1rem;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 1s border-color ease-out;
+}
+
+.projectLinks li:hover {
+    border-color: $red;
+}
+
+//project styles
+.projectSymbol {
+    opacity: 0.3;
+}
+
+.projectSymbol.book {
+    background-color: #7A7A6B;
+}
+
+.projectSymbol .fa-book-open {
+    color: #AC9B8F; 
+}
+
+.projectSymbol.cloud {
+    background-color: #61C1EB;
+}
+
+.projectSymbol .fa-cloud {
+    color: $white;
+}
+
+.projectSymbol.globe {
+    background-color: $alsoBlack;
+}
+
+.projectSymbol .fa-globe-europe {
+    color: $grey;
+}
+
+.projectSymbol.utensils {
+    background-color: #65A605;
+}
+
+.projectSymbol .fa-utensils {
+    color: $mainBlack;
+}
