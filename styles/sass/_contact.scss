@@ -20,7 +20,7 @@ textarea {
     font-size: 14px;
     font-family: $montserrat;
     padding: 1rem;
-    transition: 1s border-color ease-out;
+    transition: 1s ease-out;
 }
 
 input:focus,
@@ -47,8 +47,7 @@ button {
     font-weight: bold;
     font-size: 14px;
     cursor: pointer;
-    transition: .3s border-color ease-out;
-    transition: .3s box-shadow ease-out;
+    transition: .3s ease-out;
 }
 
 button:hover {
