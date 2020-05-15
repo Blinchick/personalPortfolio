@@ -21,3 +21,6 @@ $('form').on('submit', function(e){
     e.preventDefault();
 })
 
+//scroll library
+AOS.init();
+
