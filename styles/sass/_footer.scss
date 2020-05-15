@@ -11,14 +11,11 @@ footer > div {
 .copyRights {
     padding: 1rem;
     margin: 0;
-        p, a {
+        p {
             color: $lightGrey;
             transition: 1s color ease-out;
 
         }
-            a:hover {
-                color: $red;
-            }
 }
 
 .socialLinks ul {

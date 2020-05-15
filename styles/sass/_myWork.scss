@@ -60,7 +60,7 @@
 
 //project styles
 .projectSymbol {
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 .projectSymbol.book {
@@ -68,7 +68,7 @@
 }
 
 .projectSymbol .fa-book-open {
-    color: #AC9B8F; 
+    color: rgb(238, 238, 182); 
 }
 
 .projectSymbol.cloud {
@@ -80,7 +80,7 @@
 }
 
 .projectSymbol.globe {
-    background-color: $alsoBlack;
+    background-color: $mainBlack;
 }
 
 .projectSymbol .fa-globe-europe {

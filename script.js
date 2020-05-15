@@ -16,3 +16,8 @@ $(".mobileMenu").click(function () {
     $("header nav").toggleClass("open")
 });
 
+//form on submit don't redirect to formspree
+$('form').on('submit', function(e){
+    e.preventDefault();
+})
+

@@ -606,7 +606,7 @@ main {
 }
 
 .projectSymbol {
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .projectSymbol.book {
@@ -614,7 +614,7 @@ main {
 }
 
 .projectSymbol .fa-book-open {
-  color: #AC9B8F;
+  color: #eeeeb6;
 }
 
 .projectSymbol.cloud {
@@ -626,7 +626,7 @@ main {
 }
 
 .projectSymbol.globe {
-  background-color: #222222;
+  background-color: #333333;
 }
 
 .projectSymbol .fa-globe-europe {
@@ -662,7 +662,7 @@ main {
 }
 
 .contactMeForm {
-  padding: 5rem 0;
+  padding: 10rem 0;
   text-align: center;
 }
 
@@ -726,51 +726,6 @@ button:hover {
   border-color: #8E404D;
 }
 
-.instantContact {
-  background-color: #FAFAFA;
-  padding: 10rem 0;
-  position: center;
-  margin-bottom: 0;
-}
-
-.instantContact ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.instantContact i {
-  color: #8E404D;
-  font-size: 50px;
-}
-
-.instantContact a {
-  font-size: 24px;
-  font-weight: bold;
-  -webkit-transition: 1s color ease-out;
-  transition: 1s color ease-out;
-}
-
-.instantContact a:hover {
-  color: #8E404D;
-}
-
-.fa-phone-alt {
-  padding-left: 2rem;
-}
-
-.fa-envelope {
-  padding-right: 2rem;
-}
-
 footer {
   background-color: #222222;
 }
@@ -790,14 +745,10 @@ footer > div {
   margin: 0;
 }
 
-.copyRights p, .copyRights a {
+.copyRights p {
   color: #DDDDDD;
   -webkit-transition: 1s color ease-out;
   transition: 1s color ease-out;
-}
-
-.copyRights a:hover {
-  color: #8E404D;
 }
 
 .socialLinks ul {

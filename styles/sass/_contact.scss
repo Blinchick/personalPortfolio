@@ -1,6 +1,6 @@
 //contact
 .contactMeForm {
-    padding: 5rem 0;
+    padding: 10rem 0;
     text-align: center;
 }
 
@@ -51,42 +51,4 @@ button {
 
 button:hover {
     border-color: $red;
-}
-
-//phone and email
-.instantContact {
-    background-color: $dirtyWhite;
-    padding: 10rem 0;
-    position: center;
-    margin-bottom: 0;
-}
-
-.instantContact ul {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    align-items: center;
-}
-
-.instantContact i {
-    color: $red;
-    font-size: 50px;
-}
-
-.instantContact a {
-    font-size: 24px;
-    font-weight: bold;
-    transition: 1s color ease-out;
-}
-
-.instantContact a:hover {
-    color: $red;
-}
-
-.fa-phone-alt {
-    padding-left: 2rem;
-}
-
-.fa-envelope {
-    padding-right: 2rem;
 }
