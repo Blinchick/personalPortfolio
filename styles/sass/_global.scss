@@ -1,7 +1,15 @@
 h2 {
-    font-size: 20px;
-    color: $red;
+    font-size: 30px;
+    color: $mainBlack;
     margin: 0;
+    padding: 0.5rem 1rem;
+    border: 2px solid $white;
+    border-bottom-color: $red;
+}
+
+.myWork h2,
+.contactMe h2 {
+    text-align: end;
 }
 
 h3 {
@@ -29,37 +37,5 @@ strong {
 }
 
 section {
-    margin: 4rem 0;
-}
-
-.headingDiv {
-    position: relative;
-    z-index: 1;
-}
-
-.headingDiv h2 {
-    display: inline;
-    padding: 1rem 3rem;
-    border: 2px solid $lightGrey;
-    background-color: $white;
-}
-
-.headingDiv h2:before{
-    border-top: 2px solid $lightGrey;
-    content:"";
-    margin: 0 auto;
-    top: 50%; left: 0; right: 0; bottom: 0;
-    position: absolute;
-    z-index: -1;
-}
-
-.contactMe .headingDiv {
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-.myWork .headingDiv,
-.mySkills .headingDiv {
-    display: flex;
-    justify-content: center;
+    margin: 5rem 0;
 }

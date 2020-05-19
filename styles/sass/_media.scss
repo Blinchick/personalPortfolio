@@ -51,8 +51,12 @@
         width: 100%
     }
 
-    .projectSymbol i {
-        padding: 1rem;
+    .projectSymbol i{
+        padding: 5rem;
+    }
+
+    .projectSymbol img {
+        padding: 5rem 0;
     }
 
     input,
@@ -82,9 +86,4 @@
         .lastName {
         margin-left: 15px;
     }
-
-    // input,
-    // textarea {
-    //     width: 400px
-    // }
 }

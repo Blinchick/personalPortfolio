@@ -3,12 +3,14 @@ header {
   background-color: $dirtyWhite;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .logo h2 {
   font-family: $abril;
   font-size: 40px;
   color: $alsoBlack;
+  border: none;
 }
 
 .menu {
@@ -59,6 +61,40 @@ h1 {
 }
 
 .lastName {
-  //the only way to make it work with typed
+  //way to make it work with typed
   margin-left: 100px;
+}
+
+.arrowDown {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 20px;
+  color: $grey;
+}
+
+.arrowDown i {
+  cursor: pointer;
+  animation: arrow 2s infinite;
+}
+
+@keyframes arrow
+  {
+    0% {opacity:0}
+    40% {opacity:1}
+    80% {opacity:0}
+    100% {opacity:0}
+}
+
+.arrowDown .first {
+    animation-delay:-1s;
+}
+
+.arrowDown .second {
+    animation-delay:-0.5s;
+}
+
+.arrowDown .third {   
+    animation-delay:0s;
 }
