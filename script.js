@@ -42,9 +42,8 @@ $(document).ready(function () {
         $("header nav").toggleClass("open");
 
         $('header nav').click(function () {
-            $(".icon").removeClass("close");
+            $(".icon").removeClass("close")
             $("header nav").removeClass("open");
-            console.log('clicked')
         });
     });
 

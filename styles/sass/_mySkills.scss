@@ -1,18 +1,24 @@
 .skillTags {
-    padding: 5rem 0;
+    padding: 10rem 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    // justify-content: center;
     text-align: center;
 }
 
 .skillTags > div {
     flex: 1 1 100px;
+    margin: 0 3rem;
 }
 
 .skillTags i {
     font-size: 100px;
     color: $grey;
+}
+
+.skillTags img {
+    filter: grayscale(100%);
+    height: 100px;
 }
 
 .skillTags p {

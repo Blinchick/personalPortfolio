@@ -500,7 +500,7 @@ h1 {
   top: 0;
   display: block;
   z-index: 2;
-  background-color: rgba(250, 250, 250, 0.7);
+  background-color: rgba(250, 250, 250, 0.8);
   width: 100%;
   height: 100%;
   padding-top: 10rem;
@@ -521,6 +521,10 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.open a {
+  border-bottom: 3px #8E404D solid;
 }
 
 main {
@@ -560,7 +564,7 @@ main {
 }
 
 .projects {
-  padding: 5rem 0;
+  padding: 10rem 0;
 }
 
 .project {
@@ -680,14 +684,12 @@ main {
 }
 
 .skillTags {
-  padding: 5rem 0;
+  padding: 10rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   text-align: center;
 }
 
@@ -695,11 +697,18 @@ main {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 100px;
           flex: 1 1 100px;
+  margin: 0 3rem;
 }
 
 .skillTags i {
   font-size: 100px;
   color: #666666;
+}
+
+.skillTags img {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  height: 100px;
 }
 
 .skillTags p {
