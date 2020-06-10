@@ -54,3 +54,12 @@ button:hover {
     border-color: $red;
     box-shadow: 5px 5px $lightGrey;
 }
+
+.contactMeEmail a {
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.contactMeEmail a:hover {
+    color: $red;
+}

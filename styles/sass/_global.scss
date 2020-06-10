@@ -27,6 +27,10 @@ a {
     color: $grey;
 }
 
+a.reference {
+    text-decoration: underline;
+}
+
 ul {
     list-style: none;
     padding: 0;
