@@ -554,6 +554,10 @@ main {
   text-align: right;
 }
 
+.goodreads {
+  color: #382110;
+}
+
 .aboutMeImg {
   -ms-flex-preferred-size: 35%;
       flex-basis: 35%;
